@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  WashBot
 //
 //  Created by Andrew Jones on 2/22/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class ProductViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

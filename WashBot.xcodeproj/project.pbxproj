@@ -7,23 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2C835255315D2EDF63DDA7F /* Pods_WashBot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A74236702F7101CCEA290D6 /* Pods_WashBot.framework */; };
 		BEA422D02220A998001E4FEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA422CF2220A998001E4FEC /* AppDelegate.swift */; };
-		BEA422D22220A998001E4FEC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA422D12220A998001E4FEC /* FirstViewController.swift */; };
-		BEA422D42220A998001E4FEC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA422D32220A998001E4FEC /* SecondViewController.swift */; };
+		BEA422D22220A998001E4FEC /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA422D12220A998001E4FEC /* StatusViewController.swift */; };
+		BEA422D42220A998001E4FEC /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA422D32220A998001E4FEC /* ProductViewController.swift */; };
 		BEA422D72220A998001E4FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA422D52220A998001E4FEC /* Main.storyboard */; };
 		BEA422D92220A99C001E4FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA422D82220A99C001E4FEC /* Assets.xcassets */; };
 		BEA422DC2220A99C001E4FEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA422DA2220A99C001E4FEC /* LaunchScreen.storyboard */; };
+		BEA422E42220AC89001E4FEC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEA422E32220AC89001E4FEC /* GoogleService-Info.plist */; };
+		BEA422EA22221D1E001E4FEC /* Machine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA422E922221D1E001E4FEC /* Machine.swift */; };
+		BEA422EC22222495001E4FEC /* washer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEA422EB22222495001E4FEC /* washer.jpg */; };
+		BEA422EE222224A5001E4FEC /* dryer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEA422ED222224A5001E4FEC /* dryer.jpg */; };
+		BEA422F1222331F9001E4FEC /* washbotLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = BEA422F0222331F9001E4FEC /* washbotLogo.png */; };
+		BEA422F522233316001E4FEC /* washTab.png in Resources */ = {isa = PBXBuildFile; fileRef = BEA422F422233316001E4FEC /* washTab.png */; };
+		BEA422F9222335C0001E4FEC /* gearIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BEA422F8222335C0001E4FEC /* gearIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A74236702F7101CCEA290D6 /* Pods_WashBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WashBot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA422CC2220A998001E4FEC /* WashBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WashBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA422CF2220A998001E4FEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEA422D12220A998001E4FEC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		BEA422D32220A998001E4FEC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BEA422D12220A998001E4FEC /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		BEA422D32220A998001E4FEC /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		BEA422D62220A998001E4FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEA422D82220A99C001E4FEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEA422DB2220A99C001E4FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEA422DD2220A99C001E4FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA422E32220AC89001E4FEC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BEA422E922221D1E001E4FEC /* Machine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Machine.swift; sourceTree = "<group>"; };
+		BEA422EB22222495001E4FEC /* washer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = washer.jpg; sourceTree = "<group>"; };
+		BEA422ED222224A5001E4FEC /* dryer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dryer.jpg; sourceTree = "<group>"; };
+		BEA422EF22222685001E4FEC /* missing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = missing.jpg; sourceTree = "<group>"; };
+		BEA422F0222331F9001E4FEC /* washbotLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = washbotLogo.png; sourceTree = "<group>"; };
+		BEA422F422233316001E4FEC /* washTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = washTab.png; path = ../../../../Downloads/washTab.png; sourceTree = "<group>"; };
+		BEA422F8222335C0001E4FEC /* gearIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gearIcon.png; sourceTree = "<group>"; };
+		CBAB259B72F40632CC12ECF8 /* Pods-WashBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashBot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WashBot/Pods-WashBot.debug.xcconfig"; sourceTree = "<group>"; };
+		ECD316C360F8CFB1C369C222 /* Pods-WashBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashBot.release.xcconfig"; path = "Pods/Target Support Files/Pods-WashBot/Pods-WashBot.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +50,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C835255315D2EDF63DDA7F /* Pods_WashBot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89F96DD817CAD77F2A6110AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A74236702F7101CCEA290D6 /* Pods_WashBot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BEA422C32220A997001E4FEC = {
 			isa = PBXGroup;
 			children = (
 				BEA422CE2220A998001E4FEC /* WashBot */,
 				BEA422CD2220A998001E4FEC /* Products */,
+				CA629E07FAEF1E70877B6ACF /* Pods */,
+				89F96DD817CAD77F2A6110AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +86,32 @@
 		BEA422CE2220A998001E4FEC /* WashBot */ = {
 			isa = PBXGroup;
 			children = (
+				BEA422E32220AC89001E4FEC /* GoogleService-Info.plist */,
 				BEA422CF2220A998001E4FEC /* AppDelegate.swift */,
-				BEA422D12220A998001E4FEC /* FirstViewController.swift */,
-				BEA422D32220A998001E4FEC /* SecondViewController.swift */,
+				BEA422D12220A998001E4FEC /* StatusViewController.swift */,
+				BEA422D32220A998001E4FEC /* ProductViewController.swift */,
 				BEA422D52220A998001E4FEC /* Main.storyboard */,
 				BEA422D82220A99C001E4FEC /* Assets.xcassets */,
+				BEA422F0222331F9001E4FEC /* washbotLogo.png */,
 				BEA422DA2220A99C001E4FEC /* LaunchScreen.storyboard */,
 				BEA422DD2220A99C001E4FEC /* Info.plist */,
+				BEA422F422233316001E4FEC /* washTab.png */,
+				BEA422E922221D1E001E4FEC /* Machine.swift */,
+				BEA422EB22222495001E4FEC /* washer.jpg */,
+				BEA422F8222335C0001E4FEC /* gearIcon.png */,
+				BEA422EF22222685001E4FEC /* missing.jpg */,
+				BEA422ED222224A5001E4FEC /* dryer.jpg */,
 			);
 			path = WashBot;
+			sourceTree = "<group>";
+		};
+		CA629E07FAEF1E70877B6ACF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBAB259B72F40632CC12ECF8 /* Pods-WashBot.debug.xcconfig */,
+				ECD316C360F8CFB1C369C222 /* Pods-WashBot.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +121,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEA422E02220A99C001E4FEC /* Build configuration list for PBXNativeTarget "WashBot" */;
 			buildPhases = (
+				FB5775C403BB93A1DEEFCEAA /* [CP] Check Pods Manifest.lock */,
 				BEA422C82220A998001E4FEC /* Sources */,
 				BEA422C92220A998001E4FEC /* Frameworks */,
 				BEA422CA2220A998001E4FEC /* Resources */,
+				070654C7417930915474847F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +174,88 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA422F522233316001E4FEC /* washTab.png in Resources */,
 				BEA422DC2220A99C001E4FEC /* LaunchScreen.storyboard in Resources */,
 				BEA422D92220A99C001E4FEC /* Assets.xcassets in Resources */,
+				BEA422EE222224A5001E4FEC /* dryer.jpg in Resources */,
+				BEA422F9222335C0001E4FEC /* gearIcon.png in Resources */,
+				BEA422E42220AC89001E4FEC /* GoogleService-Info.plist in Resources */,
 				BEA422D72220A998001E4FEC /* Main.storyboard in Resources */,
+				BEA422F1222331F9001E4FEC /* washbotLogo.png in Resources */,
+				BEA422EC22222495001E4FEC /* washer.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		070654C7417930915474847F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WashBot/Pods-WashBot-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WashBot/Pods-WashBot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB5775C403BB93A1DEEFCEAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WashBot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BEA422C82220A998001E4FEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA422D42220A998001E4FEC /* SecondViewController.swift in Sources */,
+				BEA422D42220A998001E4FEC /* ProductViewController.swift in Sources */,
+				BEA422EA22221D1E001E4FEC /* Machine.swift in Sources */,
 				BEA422D02220A998001E4FEC /* AppDelegate.swift in Sources */,
-				BEA422D22220A998001E4FEC /* FirstViewController.swift in Sources */,
+				BEA422D22220A998001E4FEC /* StatusViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +399,7 @@
 		};
 		BEA422E12220A99C001E4FEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBAB259B72F40632CC12ECF8 /* Pods-WashBot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +418,7 @@
 		};
 		BEA422E22220A99C001E4FEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECD316C360F8CFB1C369C222 /* Pods-WashBot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
