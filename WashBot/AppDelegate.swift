@@ -9,23 +9,35 @@
 import UIKit
 import Firebase
 import FirebaseFirestore
+import UserNotifications
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
 
     var window: UIWindow?
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        completionHandler([.sound, .alert, .badge])
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
         _ = Firestore.firestore()
         
+        //UINavigationBar.appearance().prefersLargeTitles = true
+        UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         UINavigationBar.appearance().barTintColor = UIColor(red:0.01, green:0.20, blue:0.54, alpha:1.0)
         UINavigationBar.appearance().tintColor = UIColor(red:0.93, green:0.93, blue:0.93, alpha:1.0)
 
         UITabBar.appearance().barTintColor = UIColor(red:0.01, green:0.20, blue:0.54, alpha:1.0)
         UITabBar.appearance().tintColor = UIColor(red:0.93, green:0.93, blue:0.93, alpha:1.0)
+        
+        let center = UNUserNotificationCenter.current()
+        center.requestAuthorization(options: [.alert, .sound]) { (granted, error) in
+            // Enable or disable features based on authorization.
+        }
         
         return true
     }

@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A2C835255315D2EDF63DDA7F /* Pods_WashBot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A74236702F7101CCEA290D6 /* Pods_WashBot.framework */; };
+		BE3803FF2224C4B200F62A1F /* MachineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3803FE2224C4B200F62A1F /* MachineViewController.swift */; };
+		BE3804012224F55500F62A1F /* check.gif in Resources */ = {isa = PBXBuildFile; fileRef = BE3804002224F55500F62A1F /* check.gif */; };
+		BE3804032224FAD200F62A1F /* SwiftGIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3804022224FAD200F62A1F /* SwiftGIF.swift */; };
+		BE3804052225F6C400F62A1F /* wifiIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BE3804042225F6C300F62A1F /* wifiIcon.png */; };
+		BE380407222635AE00F62A1F /* screenshot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE380406222635AD00F62A1F /* screenshot.jpg */; };
 		BEA422D02220A998001E4FEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA422CF2220A998001E4FEC /* AppDelegate.swift */; };
 		BEA422D22220A998001E4FEC /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA422D12220A998001E4FEC /* StatusViewController.swift */; };
 		BEA422D42220A998001E4FEC /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA422D32220A998001E4FEC /* ProductViewController.swift */; };
@@ -25,6 +30,11 @@
 
 /* Begin PBXFileReference section */
 		8A74236702F7101CCEA290D6 /* Pods_WashBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WashBot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3803FE2224C4B200F62A1F /* MachineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineViewController.swift; sourceTree = "<group>"; };
+		BE3804002224F55500F62A1F /* check.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = check.gif; sourceTree = "<group>"; };
+		BE3804022224FAD200F62A1F /* SwiftGIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGIF.swift; sourceTree = "<group>"; };
+		BE3804042225F6C300F62A1F /* wifiIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wifiIcon.png; sourceTree = "<group>"; };
+		BE380406222635AD00F62A1F /* screenshot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screenshot.jpg; sourceTree = "<group>"; };
 		BEA422CC2220A998001E4FEC /* WashBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WashBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA422CF2220A998001E4FEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEA422D12220A998001E4FEC /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +100,8 @@
 				BEA422CF2220A998001E4FEC /* AppDelegate.swift */,
 				BEA422D12220A998001E4FEC /* StatusViewController.swift */,
 				BEA422D32220A998001E4FEC /* ProductViewController.swift */,
+				BE3803FE2224C4B200F62A1F /* MachineViewController.swift */,
+				BE3804022224FAD200F62A1F /* SwiftGIF.swift */,
 				BEA422D52220A998001E4FEC /* Main.storyboard */,
 				BEA422D82220A99C001E4FEC /* Assets.xcassets */,
 				BEA422F0222331F9001E4FEC /* washbotLogo.png */,
@@ -98,7 +110,10 @@
 				BEA422F422233316001E4FEC /* washTab.png */,
 				BEA422E922221D1E001E4FEC /* Machine.swift */,
 				BEA422EB22222495001E4FEC /* washer.jpg */,
+				BE3804002224F55500F62A1F /* check.gif */,
+				BE3804042225F6C300F62A1F /* wifiIcon.png */,
 				BEA422F8222335C0001E4FEC /* gearIcon.png */,
+				BE380406222635AD00F62A1F /* screenshot.jpg */,
 				BEA422EF22222685001E4FEC /* missing.jpg */,
 				BEA422ED222224A5001E4FEC /* dryer.jpg */,
 			);
@@ -175,12 +190,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEA422F522233316001E4FEC /* washTab.png in Resources */,
+				BE3804012224F55500F62A1F /* check.gif in Resources */,
 				BEA422DC2220A99C001E4FEC /* LaunchScreen.storyboard in Resources */,
 				BEA422D92220A99C001E4FEC /* Assets.xcassets in Resources */,
 				BEA422EE222224A5001E4FEC /* dryer.jpg in Resources */,
 				BEA422F9222335C0001E4FEC /* gearIcon.png in Resources */,
 				BEA422E42220AC89001E4FEC /* GoogleService-Info.plist in Resources */,
+				BE3804052225F6C400F62A1F /* wifiIcon.png in Resources */,
 				BEA422D72220A998001E4FEC /* Main.storyboard in Resources */,
+				BE380407222635AE00F62A1F /* screenshot.jpg in Resources */,
 				BEA422F1222331F9001E4FEC /* washbotLogo.png in Resources */,
 				BEA422EC22222495001E4FEC /* washer.jpg in Resources */,
 			);
@@ -252,10 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE3804032224FAD200F62A1F /* SwiftGIF.swift in Sources */,
 				BEA422D42220A998001E4FEC /* ProductViewController.swift in Sources */,
 				BEA422EA22221D1E001E4FEC /* Machine.swift in Sources */,
 				BEA422D02220A998001E4FEC /* AppDelegate.swift in Sources */,
 				BEA422D22220A998001E4FEC /* StatusViewController.swift in Sources */,
+				BE3803FF2224C4B200F62A1F /* MachineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
