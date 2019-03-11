@@ -41,7 +41,7 @@ class StatusViewController: UIViewController {
 
     func setupMachines(){
         
-        let clearbutton = UIButton.init(frame: CGRect(x: 10, y: 500, width: 300, height: 40))
+        let clearbutton = UIButton.init(frame: CGRect(x: UIScreen.main.bounds.width/2-150, y: 500, width: 300, height: 40))
         clearbutton.backgroundColor = .red
         clearbutton.setTitle("TESTING ONLY", for: .normal)
         clearbutton.addTarget(self, action: #selector(unlockAll), for: .touchUpInside)
