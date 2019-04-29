@@ -26,6 +26,8 @@
 		BEA422F1222331F9001E4FEC /* washbotLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = BEA422F0222331F9001E4FEC /* washbotLogo.png */; };
 		BEA422F522233316001E4FEC /* washTab.png in Resources */ = {isa = PBXBuildFile; fileRef = BEA422F422233316001E4FEC /* washTab.png */; };
 		BEA422F9222335C0001E4FEC /* gearIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BEA422F8222335C0001E4FEC /* gearIcon.png */; };
+		BEA87629223888E7006B97E7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA87628223888E7006B97E7 /* SettingsViewController.swift */; };
+		BEA8762B22388B6E006B97E7 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8762A22388B6E006B97E7 /* TimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		BEA422F0222331F9001E4FEC /* washbotLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = washbotLogo.png; sourceTree = "<group>"; };
 		BEA422F422233316001E4FEC /* washTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = washTab.png; path = ../../../../Downloads/washTab.png; sourceTree = "<group>"; };
 		BEA422F8222335C0001E4FEC /* gearIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gearIcon.png; sourceTree = "<group>"; };
+		BEA87628223888E7006B97E7 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		BEA8762A22388B6E006B97E7 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		CBAB259B72F40632CC12ECF8 /* Pods-WashBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashBot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WashBot/Pods-WashBot.debug.xcconfig"; sourceTree = "<group>"; };
 		ECD316C360F8CFB1C369C222 /* Pods-WashBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashBot.release.xcconfig"; path = "Pods/Target Support Files/Pods-WashBot/Pods-WashBot.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,10 +103,12 @@
 				BEA422E32220AC89001E4FEC /* GoogleService-Info.plist */,
 				BEA422CF2220A998001E4FEC /* AppDelegate.swift */,
 				BEA422D12220A998001E4FEC /* StatusViewController.swift */,
+				BEA8762A22388B6E006B97E7 /* TimerViewController.swift */,
 				BEA422D32220A998001E4FEC /* ProductViewController.swift */,
 				BE3803FE2224C4B200F62A1F /* MachineViewController.swift */,
 				BE3804022224FAD200F62A1F /* SwiftGIF.swift */,
 				BEA422D52220A998001E4FEC /* Main.storyboard */,
+				BEA87628223888E7006B97E7 /* SettingsViewController.swift */,
 				BEA422D82220A99C001E4FEC /* Assets.xcassets */,
 				BEA422F0222331F9001E4FEC /* washbotLogo.png */,
 				BEA422DA2220A99C001E4FEC /* LaunchScreen.storyboard */,
@@ -272,7 +278,9 @@
 			files = (
 				BE3804032224FAD200F62A1F /* SwiftGIF.swift in Sources */,
 				BEA422D42220A998001E4FEC /* ProductViewController.swift in Sources */,
+				BEA87629223888E7006B97E7 /* SettingsViewController.swift in Sources */,
 				BEA422EA22221D1E001E4FEC /* Machine.swift in Sources */,
+				BEA8762B22388B6E006B97E7 /* TimerViewController.swift in Sources */,
 				BEA422D02220A998001E4FEC /* AppDelegate.swift in Sources */,
 				BEA422D22220A998001E4FEC /* StatusViewController.swift in Sources */,
 				BE3803FF2224C4B200F62A1F /* MachineViewController.swift in Sources */,
@@ -425,6 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TKS8AK9GNC;
 				INFOPLIST_FILE = WashBot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TKS8AK9GNC;
 				INFOPLIST_FILE = WashBot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

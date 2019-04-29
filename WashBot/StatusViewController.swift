@@ -29,6 +29,21 @@ class StatusViewController: UIViewController {
         }
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        let db = Firestore.firestore()
+        db.collection("machines").whereField("location", isEqualTo: "stevensTech").whereField("takenBy", isEqualTo: UIDevice.current.identifierForVendor!.uuidString)
+            .getDocuments() { (querySnapshot, err) in
+                if let err = err {
+                    print("Error getting documents: \(err)")
+                } else {
+                    for document in querySnapshot!.documents {
+                    self.docIndex = Int(document.documentID)
+                    self.performSegue(withIdentifier: "showMachineView", sender: nil)
+                    }
+                }
+        }
+    }
+    
     func generateFrame(forIndex index: Int, yOffset: Int) -> CGRect {
         return CGRect(x: 10 + Int(floor(Double(index % 2))) * Int(UIScreen.main.bounds.size.width  * 0.50), y: Int( floor(Double(index / 2)) * 170) + yOffset, width: Int(UIScreen.main.bounds.size.width  * 0.45), height: 20)
     }
@@ -143,7 +158,7 @@ class StatusViewController: UIViewController {
                 print("Error getting documents: \(err)")
             } else {
                 for document in querySnapshot!.documents {
-                    db.collection("machines").document("\(document.documentID)").setData([ "available": "open" ], merge: true)
+                    db.collection("machines").document("\(document.documentID)").setData([ "available": "open", "takenBy": "" ], merge: true)
                 }
             }
         }
